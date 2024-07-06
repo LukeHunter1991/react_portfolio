@@ -34,7 +34,41 @@ footer {
   bottom: 0;
 }
 
-img {
+.logo {
   height: 9vh;
   margin: 5px;
+}
+
+section {
+  background-color: rgb(237, 100, 100);
+  padding: 5%;
+  width: 75%;
+  border-radius: 25px;
+  text-align: left;
+  margin: auto;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 1195px) {
+  h1 {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  li {
+    margin: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section {
+    width: 100%;
+    border-radius: 25px;
+    margin: 25px auto;
+    font-size: 20px;
+  }
+  .nav-list {
+    font-size: 20px;
+  }
 }
