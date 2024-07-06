@@ -1,18 +1,40 @@
 .header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
-  background-color: cornflowerblue;
+  background-color: rgb(237, 100, 100);
+  color: #646cff;
   position: fixed;
   top: 0;
 }
 
+h1 {
+  margin: 50px;
+}
 .nav-list {
   display: flex;
   list-style-type: none;
-
+  font-size: 25px;
 }
 
 li {
-  margin: 40px;
+  margin: 45px 30px 45px 30px;
+
+}
+
+footer {  
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: rgb(237, 100, 100);
+  color: #646cff;
+  position: fixed;
+  bottom: 0;
+}
+
+img {
+  height: 9vh;
+  margin: 5px;
 }
