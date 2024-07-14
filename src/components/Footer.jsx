@@ -8,7 +8,7 @@ function Footer() {
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo" alt="React logo" />
         </a>
-        <a href="www.linkedin.com/in/luke-hunter-bb78b62ab" target="_blank">
+        <a href="https://linkedin.com/in/luke-hunter-bb78b62ab" target="_blank">
           <img src={LinkedIn} className="logo" alt="LinkedIn logo" />
         </a>
         <a href="https://github.com/LukeHunter1991/" target="_blank">

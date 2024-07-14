@@ -20,7 +20,12 @@ h1 {
 
 li {
   margin: 45px 30px 45px 30px;
+  padding: 5px;
+}
 
+.active {
+  background-color: rgb(252, 248, 248);
+  border-radius: 15px;
 }
 
 footer {  
@@ -40,6 +45,8 @@ footer {
 }
 
 section {
+  display: flex;
+  justify-content: space-around;
   background-color: rgb(237, 100, 100);
   padding: 5%;
   width: 75%;
@@ -71,4 +78,71 @@ section {
   .nav-list {
     font-size: 20px;
   }
+}
+
+form {
+  background-color: rgb(237, 100, 100);
+  margin: 0 0 0 4vw;
+  border-radius: 25px;
+  padding: 5%;
+  display: flex;
+  flex-flow: column wrap;
+  width: 90%;
+  text-align: center;
+}
+
+.form-field {
+  width: 30vw;
+  padding: 10px;
+  display: block;
+  margin: 10px;
+}
+
+#text-box {
+  height: 20vh;
+  text-align: center;
+  margin: 10px;
+}
+
+/* Portfolio Styling */
+
+.portfolio-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  margin: 10% 5%;
+  text-align: center;
+}
+
+.portfolio-piece {
+  width: 25%;
+  margin: 2% 2%;
+  background-color: rgb(237, 100, 100);
+  border-radius: 25px;
+  text-align: center;
+}
+.portfolio-image {
+  max-width: 75%;
+}
+
+.link {
+  display: block;
+  margin: 2%;
+}
+
+/* Resume Page */
+h2 {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+#proficencies {
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin: 195px 0px 195px 15px
+}
+
+.prof-list {
+  font-size: medium;
 }
